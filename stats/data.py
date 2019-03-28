@@ -10,7 +10,7 @@ games_frames = []
 
 for game_file in game_files:
     game_frame = pd.read_csv(game_file, names=['type', 'multi2', 'multi3', 'multi4', 'multi5', 'multi6', 'event'])
-    games_frames.append(game_frame)
+    game_frames.append(game_frame)
 
 games = pd.concat(games_frames)
 
